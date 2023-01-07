@@ -58,12 +58,16 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
-    padding: 150px;
+    gap: 150px;
+    padding: 50px 150px;
     display: flex;
 }
-#failures .failures-img, .failure-info{
+#failures .failures-img{
     width: 50%;
+}
+
+.failure-info{
+    width: 40%;
 }
 
 #failures li{
@@ -91,4 +95,30 @@ button{
 
 }
 
+
+/*pre footer style*/
+#pre-footer{
+    margin: 50px 150px;
+}
+
+#pre-footer .pre-footer-info-warp{
+    background: linear-gradient(to left,rgba(0, 0, 0, 0), rgb(255, 123, 0)), url(/images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px;
+    border-radius: 10px;
+}
+
+#pre-footer div .pre-footer-info{
+    width: 40%;
+}
+
+.pre-footer-info h2{
+    color: #fff;
+}
+
+.pre-footer-info button{
+    background-color: #fff;
+    color: #F15B22;
+}
 
