@@ -42,7 +42,7 @@ button{
     justify-content: end;
     align-items: center;
     height:800px;
-    background-image: url(/images/banner/banner1.png);
+    background-image: url(images/banner/banner1.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 0px 150px;
